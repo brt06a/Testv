@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pay via UPI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .upi-button {
+            background: #007bff;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            display: inline-block;
+            margin: 10px;
+        }
+        .upi-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Make Payment to Bishwa</h2>
+    <p>Click the button below to pay via UPI</p>
+    
+    <a href="upi://pay?pa=bishwa06@ptyes&pn=Bishwa&am=100&cu=INR&tn=Payment" class="upi-button">
+        Pay ₹100 via UPI
+    </a>
+    
+    <div style="margin-top: 20px;">
+        <p><strong>UPI ID:</strong> bishwa06@ptyes</p>
+        <p><strong>Amount:</strong> ₹100</p>
+    </div>
+</body>
+</html>
